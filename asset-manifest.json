@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/repository-name/static/js/main.f988b947.js",
-    "index.html": "/repository-name/index.html",
-    "main.f988b947.js.map": "/repository-name/static/js/main.f988b947.js.map"
+    "main.js": "/my-travel-journal/static/js/main.f988b947.js",
+    "index.html": "/my-travel-journal/index.html",
+    "main.f988b947.js.map": "/my-travel-journal/static/js/main.f988b947.js.map"
   },
   "entrypoints": [
     "static/js/main.f988b947.js"
