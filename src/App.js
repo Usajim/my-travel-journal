@@ -7,6 +7,7 @@ import data from "./components/data";
 export default function App() {
   const travelData = data.map (items => {
     return <Travel
+       key={items.id}
        items={items}
      />
     

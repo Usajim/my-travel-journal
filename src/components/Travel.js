@@ -5,12 +5,13 @@ export default function Travel(props) {
     console.log(props)
     return (
         <div className="travelDetails">
-            <img src={`../images/${props.items.coverImg}`} alt="Mt. Longonot Pic" className="coverImg"/>
+            <img src={`../images/${props.items.coverImg}`} alt={props.items.alt} className="coverImg"/>
             
             <div className="description">
             <div className="locationDetails">
+                <span><img src={`../images/${props.items.stats.path}`} alt="Location Pin" className="pin"/></span>
                <span className="location">{props.items.stats.location}</span>
-              <span className="googlelink">{props.items.stats.googleLink}</span>
+               <span className="googlelink"> <a href={props.items.stats.googleLink}>View on Map</a></span>
             </div>
             <h3>{props.items.title}</h3>
             <p className="date">{props.items.date}</p>
